@@ -1,0 +1,33 @@
+
+Global setup:
+
+ Set up git
+  git config --global user.name "Briody"
+  git config --global user.email telebriody@hotmail.com
+
+
+Next steps:
+
+  mkdir java-study
+  cd java-study
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin https://github.com/briody/java-study.git
+  git push -u origin master
+
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin https://github.com/briody/java-study.git
+  git push -u origin master
+
+
+Importing a Subversion Repo?
+
+  Check out the guide for step by step instructions.
+
+
+
